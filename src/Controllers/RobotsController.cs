@@ -129,7 +129,7 @@ namespace Miniblog.Core.Controllers
                         item.AddCategory(new SyndicationCategory(category));
                     }
 
-                    item.AddContributor(new SyndicationPerson(_settings.Value.Owner, "test@example.com"));
+                    item.AddContributor(new SyndicationPerson(_settings.Value.Owner, "jurasek.tomas@hotmail.cz"));
                     item.AddLink(new SyndicationLink(new Uri(item.Id)));
 
                     await writer.Write(item);

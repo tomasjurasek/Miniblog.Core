@@ -1,7 +1,7 @@
 {
-  "name": "Miniblog.Core",
-  "short_name": "Miniblog.Core",
-  "description": "A short description of the blog.",
+  "name": "Tomas Jurasek",
+  "short_name": "Tomas Jurasek Blog",
+  "description": "",
   "icons": [
     {
       "src": "/img/icon192x192.png",
